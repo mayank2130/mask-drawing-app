@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import CanvasDraw from "react-canvas-draw";
 import { Download, Trash2, Brush, Minus, Plus, Loader2 } from "lucide-react";
-import axios from "axios";
 import { BACKEND_URL, dataUrlToFile, uploadImageToS3 } from "../lib/upload";
 
 

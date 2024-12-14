@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BACKEND_URL = "http://localhost:3000";
+export const BACKEND_URL = "https://backend-psi-lemon-76.vercel.app";
 export const CLOUDFRONT_URL = "https://d2yk3dckh7cww2.cloudfront.net";
 
 export async function uploadImageToS3(
