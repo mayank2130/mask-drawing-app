@@ -13,5 +13,5 @@ app.use(cors({
 
 app.use(userRouter);
 
-app.listen(3000)
+app.listen()
 console.log("Server running on port 3000")
