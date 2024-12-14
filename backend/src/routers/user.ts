@@ -14,7 +14,7 @@ const s3Client = new S3Client({
 })
 
 
-router.get("/presignedUrl", async (req, res) => {
+router.get("/", async (req, res) => {
 
     // const userId = req.userId;
 

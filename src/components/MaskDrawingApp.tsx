@@ -22,7 +22,7 @@ const MaskDrawingApp: React.FC = () => {
         const uploadedImageUrl = await uploadImageToS3(
           true,
           file,
-          `${BACKEND_URL}/presignedUrl`
+          `${BACKEND_URL}`
         );
         // console.log("Uploaded Image URL:", uploadedImageUrl);
         setOriginalImage(uploadedImageUrl);
@@ -76,7 +76,7 @@ const MaskDrawingApp: React.FC = () => {
       const maskImageUrl = await uploadImageToS3(
         false,
         maskImageFile,
-        `${BACKEND_URL}/presignedUrl`
+        `${BACKEND_URL}`
       );
 
       // console.log("Mask uploaded successfully:", maskImageUrl);
