@@ -1,8 +1,4 @@
 # React + Vite
+I've used the library react-canvas-draw for brush functionality, Axios to communicate with the backend, and aws-S3Sdk to upload images to the S3 bucket and hit the CloudFront URL.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I haven't connected the production backend to the react so <h2>the live link probably won't work</h2> and by probably I mean won't work. :)
